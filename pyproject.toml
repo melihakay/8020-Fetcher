@@ -30,6 +30,12 @@ build-backend = "hatchling.build"
 [tool.hatch.version]
 source = "vcs"
 
+[tool.semantic_release]
+version_variables = []
+version_toml = []
+build_command = "uv build"
+tag_format = "{version}"
+
 [dependency-groups]
 dev = [
     "mypy>=1.10.0",
