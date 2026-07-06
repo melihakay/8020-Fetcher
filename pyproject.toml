@@ -1,0 +1,51 @@
+[project]
+name = "eticu"
+version = "0.1.0"
+description = "Convert 80/20 Endurance .FIT workouts to intervals.icu structured workouts"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "Melih Akay", email = "melih.akay@metu.edu.tr" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "fitdecode>=0.10.0",
+    "httpx>=0.27.0",
+    "selectolax>=0.3.17",
+    "typer>=0.12.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.3.0",
+]
+
+[project.urls]
+Repository = "https://github.com/melihakay/8020-fetcher"
+
+[project.scripts]
+eticu = "eticu.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.10.0",
+    "pytest>=8.2.0",
+    "respx>=0.21.0",
+    "ruff>=0.4.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+strict = true
+python_version = "3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
