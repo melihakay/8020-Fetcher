@@ -1,6 +1,6 @@
 [project]
 name = "eticu"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Convert 80/20 Endurance .FIT workouts to intervals.icu structured workouts"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -24,8 +24,11 @@ Repository = "https://github.com/melihakay/8020-fetcher"
 eticu = "eticu.cli:app"
 
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
 
 [dependency-groups]
 dev = [
