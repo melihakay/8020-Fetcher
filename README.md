@@ -46,6 +46,8 @@ To upload a training plan from a CSV file (e.g. `plans/olympic_distance_level_0.
 uv run eticu upload-plan plans/olympic_distance_level_0.csv --name "Olympic Level 0"
 ```
 
+Exercise names in the CSV's should be same as the 80/20 FIT files.
+
 **Options:**
 - `--pool-length`: Pool length in meters (e.g., 25 or 50) for swim workouts.
 - `--dry-run`: Parse the CSV and list the plan without uploading.
