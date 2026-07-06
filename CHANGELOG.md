@@ -2,6 +2,21 @@
 
 
 
+## v0.2.1 (2026-07-06)
+
+### Ci
+
+* ci: add explicit build step after semantic release ([`5370e5a`](https://github.com/melihakay/8020-Fetcher/commit/5370e5ac0598451312efc36fc099bf7c151fed22))
+
+### Fix
+
+* fix: trigger publisher ([`24eff65`](https://github.com/melihakay/8020-Fetcher/commit/24eff653c359e75ebd26d20c7a7a02791e6dd233))
+
+### Unknown
+
+* Merge branch &#39;master&#39; of https://github.com/melihakay/8020-Fetcher ([`8df2000`](https://github.com/melihakay/8020-Fetcher/commit/8df20006cce8f0a169dfd3870463e7ad4e08a03e))
+
+
 ## v0.2.0 (2026-07-06)
 
 ### Feature
