@@ -4,7 +4,7 @@
 
 It serves as a more robust, metric-first Python reimplementation of the [8020-intervals-icu](https://github.com/njg4ne/8020-intervals-icu) TypeScript project, completely fixing target loss issues during imports, nested repeat structures, and adding idempotent uploading.
 
-> **Scope Note**: This tool populates the *workout library* folders only. Scheduling the 16-week plan onto your calendar is a separate task and is out of scope. Brick (`BR*`) workouts do not exist as `.FIT` files in the library and are therefore also out of scope.
+> **Scope Note**: Brick (`BR*`) workouts do not exist as `.FIT` files in the library and are therefore also out of scope.
 
 ## Installation & Setup
 
