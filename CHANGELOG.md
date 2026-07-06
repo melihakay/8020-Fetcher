@@ -1,0 +1,26 @@
+# CHANGELOG
+
+
+
+## v0.2.0 (2026-07-06)
+
+### Feature
+
+* feat: added semantic versioning ([`d42e355`](https://github.com/melihakay/8020-Fetcher/commit/d42e355e822b9d7180aaaa4d4cfa16a5c74d43c1))
+
+### Fix
+
+* fix: use default semantic-release build command ([`04315fc`](https://github.com/melihakay/8020-Fetcher/commit/04315fcbc5b133f5d4c2a4e5bc1a451ced3d0262))
+
+
+## v0.1.0 (2026-07-06)
+
+### Feature
+
+* feat: added dynamic versioning and publisher ([`14573ca`](https://github.com/melihakay/8020-Fetcher/commit/14573ca967a4faf057e863dd078b679412746c02))
+
+### Unknown
+
+* update readme ([`0c6f3a7`](https://github.com/melihakay/8020-Fetcher/commit/0c6f3a7e2a1c1f2eac406ac98eba9ec2b614ae96))
+
+* initial version ([`68e92ec`](https://github.com/melihakay/8020-Fetcher/commit/68e92ec95c07469b0497d8dbeaa2076815e08c9d))
